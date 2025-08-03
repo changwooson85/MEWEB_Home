@@ -1,0 +1,32 @@
+2025-03-25 14:13:11.226 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 14:23:21.348 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 14:25:08.711 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 15:18:06.400 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 15:21:25.306 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 15:34:31.915 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 15:44:52.578 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 15:46:37.850 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 15:59:07.484 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 16:03:22.651 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 16:35:16.424 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 16:39:43.943 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 16:42:13.906 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 16:44:17.010 [Thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-01400: NULL을 ("IDBMGR"."CRASJOBLST"."LAYER") 안에 삽입할 수 없습니다
+
+2025-03-25 16:46:16.683 [Thread-2] ERROR com.MESWebServer.service.CrasJobLstService - resId:PSTD34 device:SPM5 layer:
+2025-03-25 16:46:16.683 [Thread-2] ERROR com.MESWebServer.service.CrasJobLstService - resId:PSTD34 device:SPM5 layer:
+2025-03-25 16:46:16.707 [Thread-2] ERROR com.MESWebServer.service.CrasJobLstService - resId:PSTD34 device:STD1 layer:
+2025-03-25 16:46:16.707 [Thread-2] ERROR com.MESWebServer.service.CrasJobLstService - resId:PSTD34 device:STD1 layer:

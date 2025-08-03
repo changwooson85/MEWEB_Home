@@ -1,0 +1,52 @@
+<html layout:decorate="~{layout}">
+<div th:fragment="jobListContent" th:if="${crasJobLstPage != null}">
+    <h2 class="text-center" th:text="${res_id + ' Job List'}">데이터 목록</h2>
+    <!-- 엑셀 다운로드 버튼 -->
+    <!--<a href="/crasjoblst/download" class="btn btn-success mb-3">엑셀 다운로드</a>-->
+    <!-- <form th:action="@{/crasjoblst/search}" method="get" class="mb-3">-->
+    <a th:href="@{/crasjoblst/download(res_id=${res_id})}" class="btn btn-success mb-3">엑셀 다운로드</a>
+    <table class="table table-bordered table-striped" id="dataTable">
+        <thead class="table-dark">
+        <tr>
+            <th>RES_ID</th>
+            <th>DEVICE</th>
+            <th>LAYER</th>
+            <th>파일 마지막 수정 시간</th>
+            <th>마지막 수집 시간</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="item : ${crasJobLstPage.content}">
+            <td th:text="${item.id.resId}"></td>
+            <td th:text="${item.id.device}"></td>
+            <td th:text="${item.id.layer}"></td>
+            <td th:text="${@dateUtil.format14(item.lastModifyTime)}"></td>
+            <td th:text="${@dateUtil.format14(item.updateTime)}"></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- 페이징 네비게이션 -->
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item" th:classappend="${crasJobLstPage.first} ? 'disabled'">
+                <a class="page-link ajax-link" th:href="@{/crasjoblst/view(page=0, size=${crasJobLstPage.size}, res_id=${res_id})}">처음</a>
+            </li>
+            <li class="page-item" th:classappend="${crasJobLstPage.first} ? 'disabled'">
+                <a class="page-link ajax-link" th:href="@{/crasjoblst/view(page=${crasJobLstPage.number - 1}, size=${crasJobLstPage.size}, res_id=${res_id})}">이전</a>
+            </li>
+            <!-- 페이지 번호 10개씩 범위로 보여주기 -->
+            <li class="page-item" th:each="i : ${#numbers.sequence(startPage, endPage)}"
+                th:classappend="${i == crasJobLstPage.number} ? 'active' : ''">
+                <a class="page-link ajax-link" th:href="@{/crasjoblst/view(page=${i}, size=${crasJobLstPage.size}, res_id=${res_id})}" th:text="${i + 1}"></a>
+            </li>
+
+            <li class="page-item" th:classappend="${crasJobLstPage.last} ? 'disabled'">
+                <a class="page-link ajax-link" th:href="@{/crasjoblst/view(page=${crasJobLstPage.number + 1}, size=${crasJobLstPage.size}, res_id=${res_id})}">다음</a>
+            </li>
+            <li class="page-item" th:classappend="${crasJobLstPage.last} ? 'disabled'">
+                <a class="page-link ajax-link" th:href="@{/crasjoblst/view(page=${crasJobLstPage.totalPages - 1}, size=${crasJobLstPage.size}, res_id=${res_id})}">마지막</a>
+            </li>
+        </ul>
+    </nav>
+</div>

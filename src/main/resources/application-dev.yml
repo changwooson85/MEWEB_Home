@@ -1,0 +1,8 @@
+channel:
+  programId: WebServer
+  channelId: /DEV1/MESServer
+  tuneChannel: /DEV1/MES_WEB
+  serverIp: 10.150.5.30
+  pingInterval: 60000
+  pingTimeout: 70000
+  poolSize: 5

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module ModuleName="MESWEB" NameSpace="MESWEB">
+    <Type TypeName="MESWEB_MGCMTBLDAT_In_Tag">
+        <Member MemberName="h_passport" MemberType="char" MemberSize="100"/>
+        <Member MemberName="h_language" MemberType="char" MemberSize="1"/>
+        <Member MemberName="h_user_id" MemberType="char" MemberSize="20"/>
+        <Member MemberName="h_password" MemberType="char" MemberSize="20"/>
+        <Member MemberName="h_proc_step" MemberType="char" MemberSize="1"/>
+        <Member MemberName="h_factory" MemberType="char" MemberSize="10"/>
+        <Member MemberName="table_name" MemberType="char" MemberSize="20"/>
+        <Member MemberName="key_1" MemberType="char" MemberSize="30"/>
+        <Member MemberName="key_2" MemberType="char" MemberSize="30"/>
+    </Type>
+
+    <Type TypeName="MESWEB_MGCMTBLDAT_Out_Tag">
+        <Member MemberName="h_status_value" MemberType="char" MemberSize="1"/>
+        <Member MemberName="h_msg_code" MemberType="char" MemberSize="10"/>
+        <Member MemberName="h_msg" MemberType="char" MemberSize="200"/>
+        <Member MemberName="h_field_msg" MemberType="char" MemberSize="200"/>
+        <Member MemberName="h_db_err_msg" MemberType="char" MemberSize="200"/>
+        <!-- body -->
+        <Member MemberName="next_key_1" MemberType="char" MemberSize="30"/>
+        <Member MemberName="next_key_2" MemberType="char" MemberSize="30"/>
+        <InnerType InnerTypeName="data_list" InnerTypeSize="1000">
+            <Member MemberName="key_1" MemberType="char" MemberSize="30"/>
+            <Member MemberName="key_2" MemberType="char" MemberSize="30"/>
+            <Member MemberName="data_1" MemberType="char" MemberSize="50"/>
+            <Member MemberName="data_2" MemberType="char" MemberSize="50"/>
+            <Member MemberName="data_3" MemberType="char" MemberSize="50"/>
+            <Member MemberName="data_4" MemberType="char" MemberSize="50"/>
+            <Member MemberName="data_5" MemberType="char" MemberSize="50"/>
+            <Member MemberName="data_6" MemberType="char" MemberSize="50"/>
+            <Member MemberName="data_7" MemberType="char" MemberSize="50"/>
+            <Member MemberName="data_8" MemberType="char" MemberSize="50"/>
+            <Member MemberName="data_9" MemberType="char" MemberSize="50"/>
+            <Member MemberName="data_10" MemberType="char" MemberSize="50"/>
+            <Member MemberName="create_id" MemberType="char" MemberSize="50"/>
+            <Member MemberName="create_time" MemberType="char" MemberSize="50"/>
+            <Member MemberName="update_id" MemberType="char" MemberSize="50"/>
+            <Member MemberName="update_time" MemberType="char" MemberSize="50"/>
+        </InnerType>
+    </Type>
+
+    <Type TypeName="MESWEB_Cmn_Out_Tag">
+        <Member MemberName="h_status_value" MemberType="char" MemberSize="1"/>
+        <Member MemberName="h_msg_code" MemberType="char" MemberSize="10"/>
+        <Member MemberName="h_msg" MemberType="char" MemberSize="200"/>
+        <Member MemberName="h_field_msg" MemberType="char" MemberSize="200"/>
+        <Member MemberName="h_db_err_msg" MemberType="char" MemberSize="200"/>
+    </Type>
+
+    <Type TypeName="MESWEB_Ftp_Job_File_In_Tag">
+        <Member MemberName="h_passport" MemberType="char" MemberSize="100"/>
+        <Member MemberName="h_language" MemberType="char" MemberSize="1"/>
+        <Member MemberName="h_user_id" MemberType="char" MemberSize="20"/>
+        <Member MemberName="h_password" MemberType="char" MemberSize="20"/>
+        <Member MemberName="h_proc_step" MemberType="char" MemberSize="1"/>
+        <Member MemberName="h_factory" MemberType="char" MemberSize="10"/>
+        <Member MemberName="server_name" MemberType="char" MemberSize="20"/>
+        <Member MemberName="last_list" MemberType="char" MemberSize="1"/>
+        <Member MemberName="job_time" MemberType="char" MemberSize="14"/>
+        <InnerType InnerTypeName="data_list" InnerTypeSize="5000">
+            <Member MemberName="device" MemberType="char" MemberSize="30"/>
+            <Member MemberName="layer" MemberType="char" MemberSize="30"/>
+            <Member MemberName="lastModifyTime" MemberType="char" MemberSize="14"/>
+        </InnerType>>
+    </Type>
+
+    <Operation OperationName="MESWEB_View_MGCMTBLDAT" DeliveryMode="REQUEST" Sync="true">
+        <Parameter ParameterName="MESWEB_MGCMTBLDAT_In" ParameterType="MESWEB_MGCMTBLDAT_In_Tag" Direction="in" ParameterSize="1"/>
+        <Parameter ParameterName="MESWEB_MGCMTBLDAT_Out" ParameterType="MESWEB_MGCMTBLDAT_Out_Tag" Direction="out" ParameterSize="1"/>
+    </Operation>
+
+    <Operation OperationName="MESWEB_Update_Ftp_Job_File" DeliveryMode="REQUEST" Sync="true">
+        <Parameter ParameterName="MESWEB_Ftp_Job_File_In" ParameterType="MESWEB_Ftp_Job_File_In_Tag" Direction="in" ParameterSize="1"/>
+        <Parameter ParameterName="MESWEB_Cmn_Out" ParameterType="MESWEB_Cmn_Out_Tag" Direction="out" ParameterSize="1"/>
+    </Operation>
+</Module>

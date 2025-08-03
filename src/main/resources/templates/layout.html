@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/reset.css}" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      th:href="@{/css/bootstrap.min.css}"
+    />
+    <!-- sbb CSS -->
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/home-nav.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/choices.min.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/loading.css}" />
+    <link rel="icon" th:href="@{/image/MESClient.png}" />
+    <title>MES Web Client</title>
+  </head>
+  <body>
+    <!-- 기본 템플릿 안에 삽입될 내용 Start -->
+    <th:block layout:fragment="content"></th:block>
+    <!-- 기본 템플릿 안에 삽입될 내용 End -->
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/home.js"></script>
+    <script src="/js/chart.umd.js"></script>
+    <script src="/js/etchChart.js"></script>
+    <script src="/js/choices.min.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="/js/chartjs-plugin-annotaion.min.js"></script>
+    <script src="/js/echarts.min.js"></script>
+    <script src="/js/jspdf.umd.min.js"></script>
+    <script src="/js/jspdf-noto-korean.js"></script>
+    <script src="/js/html2canvas.min.js"></script>
+    <script src="/js/jspdf.plugin.autotable.js"></script>
+    <script src="/js/androidLS.js"></script>
+  </body>
+</html>

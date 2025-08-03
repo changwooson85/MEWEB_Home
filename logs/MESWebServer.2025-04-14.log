@@ -1,0 +1,345 @@
+2025-04-14 08:35:07.038 [main] INFO  com.MESWebServer.MesWebServerApplication - Starting MesWebServerApplication using Java 17.0.6 with PID 35932 (D:\2025\Project\Spring\MESWebServer_VSCODE\bin\main started by 10003512 in D:\2025\Project\Spring\MESWebServer_VSCODE)
+2025-04-14 08:35:07.047 [main] INFO  com.MESWebServer.MesWebServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-14 08:35:08.774 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 08:35:09.041 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 249 ms. Found 2 JPA repository interfaces.
+2025-04-14 08:35:10.653 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-14 08:35:10.668 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 08:35:10.679 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-14 08:35:10.680 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-14 08:35:10.809 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-14 08:35:10.810 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3297 ms
+2025-04-14 08:35:14.046 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 08:35:14.145 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-14 08:35:14.209 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-14 08:35:14.717 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-14 08:35:14.762 [main] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [hibernate.temp.use_jdbc_metadata_defaults], use [hibernate.boot.allow_jdbc_metadata_access] instead
+2025-04-14 08:35:14.859 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-14 08:35:14.971 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-14 08:35:16.372 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-14 08:35:16.377 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 08:35:16.840 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-14 08:35:17.752 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 08:35:18.615 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 08:35:18.741 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-14 08:35:18.883 [main] INFO  com.MESWebServer.MesWebServerApplication - Started MesWebServerApplication in 13.022 seconds (process running for 13.8)
+2025-04-14 08:35:46.929 [http-nio-0.0.0.0-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 08:35:46.939 [http-nio-0.0.0.0-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-14 08:35:46.943 [http-nio-0.0.0.0-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-14 08:35:47.186 [http-nio-0.0.0.0-8090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-14 08:35:47.189 [http-nio-0.0.0.0-8090-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-04-14 08:35:47.685 [http-nio-0.0.0.0-8090-exec-1] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2025-04-14 08:35:47.706 [http-nio-0.0.0.0-8090-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@350616fd
+2025-04-14 08:35:47.708 [http-nio-0.0.0.0-8090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-14 08:37:54.394 [http-nio-0.0.0.0-8090-exec-5] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-5][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 09:09:42.567 [main] INFO  com.MESWebServer.MesWebServerApplication - Starting MesWebServerApplication using Java 17.0.6 with PID 2492 (D:\2025\Project\Spring\MESWebServer_VSCODE\bin\main started by 10003512 in D:\2025\Project\Spring\MESWebServer_VSCODE)
+2025-04-14 09:09:42.604 [main] INFO  com.MESWebServer.MesWebServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-14 09:09:44.884 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 09:09:45.082 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 153 ms. Found 2 JPA repository interfaces.
+2025-04-14 09:09:47.111 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-14 09:09:47.131 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 09:09:47.134 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-14 09:09:47.138 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-14 09:09:47.221 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-14 09:09:47.221 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4110 ms
+2025-04-14 09:09:47.957 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 09:09:48.026 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-14 09:09:48.090 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-14 09:09:48.829 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-14 09:09:48.879 [main] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [hibernate.temp.use_jdbc_metadata_defaults], use [hibernate.boot.allow_jdbc_metadata_access] instead
+2025-04-14 09:09:48.961 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-14 09:09:48.981 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-14 09:09:50.294 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-14 09:09:50.298 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 09:09:50.726 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-14 09:09:51.829 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 09:09:53.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 09:09:53.282 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-14 09:09:53.295 [main] INFO  com.MESWebServer.MesWebServerApplication - Started MesWebServerApplication in 12.194 seconds (process running for 14.808)
+2025-04-14 09:11:45.322 [http-nio-0.0.0.0-8090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 09:11:45.341 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-14 09:11:45.369 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-04-14 09:11:47.816 [http-nio-0.0.0.0-8090-exec-2] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-2][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 09:11:57.297 [http-nio-0.0.0.0-8090-exec-4] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-4][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 09:12:22.253 [http-nio-0.0.0.0-8090-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-14 09:12:22.256 [http-nio-0.0.0.0-8090-exec-8] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-04-14 09:12:22.766 [http-nio-0.0.0.0-8090-exec-8] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2025-04-14 09:12:23.107 [http-nio-0.0.0.0-8090-exec-8] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1ec2f76e
+2025-04-14 09:12:23.109 [http-nio-0.0.0.0-8090-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-14 09:23:52.062 [main] INFO  com.MESWebServer.MesWebServerApplication - Starting MesWebServerApplication using Java 17.0.6 with PID 35160 (D:\2025\Project\Spring\MESWebServer_VSCODE\bin\main started by 10003512 in D:\2025\Project\Spring\MESWebServer_VSCODE)
+2025-04-14 09:23:52.116 [main] INFO  com.MESWebServer.MesWebServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-14 09:23:53.537 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 09:23:53.729 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 159 ms. Found 2 JPA repository interfaces.
+2025-04-14 09:23:55.136 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-14 09:23:55.150 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 09:23:55.153 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-14 09:23:55.154 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-14 09:23:55.269 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-14 09:23:55.270 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2864 ms
+2025-04-14 09:23:55.857 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 09:23:55.921 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-14 09:23:55.961 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-14 09:23:56.341 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-14 09:23:56.357 [main] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [hibernate.temp.use_jdbc_metadata_defaults], use [hibernate.boot.allow_jdbc_metadata_access] instead
+2025-04-14 09:23:56.386 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-14 09:23:56.405 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-14 09:23:57.406 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-14 09:23:57.410 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 09:23:57.930 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-14 09:23:58.725 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 09:23:59.523 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 09:23:59.582 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-14 09:23:59.628 [main] INFO  com.MESWebServer.MesWebServerApplication - Started MesWebServerApplication in 8.406 seconds (process running for 9.147)
+2025-04-14 09:25:12.258 [http-nio-0.0.0.0-8090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 09:25:12.340 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-14 09:25:12.363 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-04-14 09:25:14.487 [http-nio-0.0.0.0-8090-exec-2] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-2][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 09:25:27.890 [http-nio-0.0.0.0-8090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-14 09:25:27.902 [http-nio-0.0.0.0-8090-exec-2] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-04-14 09:25:28.479 [http-nio-0.0.0.0-8090-exec-2] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2025-04-14 09:25:28.497 [http-nio-0.0.0.0-8090-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7d06705b
+2025-04-14 09:25:28.508 [http-nio-0.0.0.0-8090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-14 10:53:11.045 [main] INFO  com.MESWebServer.MesWebServerApplication - Starting MesWebServerApplication using Java 17.0.6 with PID 27076 (D:\2025\Project\Spring\MESWebServer_VSCODE\bin\main started by 10003512 in D:\2025\Project\Spring\MESWebServer_VSCODE)
+2025-04-14 10:53:11.047 [main] INFO  com.MESWebServer.MesWebServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-14 10:53:14.380 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 10:53:14.606 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 193 ms. Found 2 JPA repository interfaces.
+2025-04-14 10:53:17.444 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-14 10:53:17.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 10:53:17.492 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-14 10:53:17.493 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-14 10:53:17.969 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-14 10:53:17.969 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6405 ms
+2025-04-14 10:53:24.516 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 10:53:24.675 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-14 10:53:24.746 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-14 10:53:25.429 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-14 10:53:25.514 [main] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [hibernate.temp.use_jdbc_metadata_defaults], use [hibernate.boot.allow_jdbc_metadata_access] instead
+2025-04-14 10:53:25.546 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-14 10:53:25.608 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-14 10:53:26.935 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-14 10:53:26.941 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 10:53:27.889 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-14 10:53:29.152 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 10:53:30.193 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 10:53:32.764 [http-nio-0.0.0.0-8090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 10:53:32.788 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-14 10:53:32.790 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-14 10:53:33.645 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-14 10:53:33.817 [main] INFO  com.MESWebServer.MesWebServerApplication - Started MesWebServerApplication in 24.345 seconds (process running for 25.328)
+2025-04-14 10:53:36.317 [http-nio-0.0.0.0-8090-exec-2] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-2][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 10:53:36.318 [http-nio-0.0.0.0-8090-exec-4] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-4][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 10:53:37.027 [http-nio-0.0.0.0-8090-exec-5] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-5][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 10:53:39.908 [http-nio-0.0.0.0-8090-exec-8] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-8][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 10:53:59.815 [http-nio-0.0.0.0-8090-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 10:55:06.115 [http-nio-0.0.0.0-8090-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 10:57:22.806 [http-nio-0.0.0.0-8090-exec-4] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 10:58:05.648 [http-nio-0.0.0.0-8090-exec-9] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:03:11.138 [main] INFO  com.MESWebServer.MesWebServerApplication - Starting MesWebServerApplication using Java 17.0.6 with PID 33840 (D:\2025\Project\Spring\MESWebServer_VSCODE\bin\main started by 10003512 in D:\2025\Project\Spring\MESWebServer_VSCODE)
+2025-04-14 11:03:11.146 [main] INFO  com.MESWebServer.MesWebServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-14 11:03:13.184 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 11:03:13.509 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 182 ms. Found 2 JPA repository interfaces.
+2025-04-14 11:03:16.272 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-14 11:03:16.348 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 11:03:16.352 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-14 11:03:16.353 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-14 11:03:16.612 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-14 11:03:16.623 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4968 ms
+2025-04-14 11:03:28.217 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 11:03:28.384 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-14 11:03:28.488 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-14 11:03:29.275 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-14 11:03:29.299 [main] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [hibernate.temp.use_jdbc_metadata_defaults], use [hibernate.boot.allow_jdbc_metadata_access] instead
+2025-04-14 11:03:29.382 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-14 11:03:29.461 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-14 11:03:31.329 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-14 11:03:31.362 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 11:03:32.373 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-14 11:03:33.799 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 11:03:36.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 11:03:36.243 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-14 11:03:36.258 [main] INFO  com.MESWebServer.MesWebServerApplication - Started MesWebServerApplication in 26.238 seconds (process running for 27.39)
+2025-04-14 11:03:36.449 [http-nio-0.0.0.0-8090-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 11:03:36.456 [http-nio-0.0.0.0-8090-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-14 11:03:36.514 [http-nio-0.0.0.0-8090-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-14 11:03:39.082 [http-nio-0.0.0.0-8090-exec-3] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-3][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:03:51.821 [http-nio-0.0.0.0-8090-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:04:39.436 [http-nio-0.0.0.0-8090-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:07:39.706 [main] INFO  com.MESWebServer.MesWebServerApplication - Starting MesWebServerApplication using Java 17.0.6 with PID 38048 (D:\2025\Project\Spring\MESWebServer_VSCODE\bin\main started by 10003512 in D:\2025\Project\Spring\MESWebServer_VSCODE)
+2025-04-14 11:07:39.711 [main] INFO  com.MESWebServer.MesWebServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-14 11:07:41.343 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 11:07:41.590 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 172 ms. Found 2 JPA repository interfaces.
+2025-04-14 11:07:43.441 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-14 11:07:43.464 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 11:07:43.467 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-14 11:07:43.468 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-14 11:07:43.599 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-14 11:07:43.618 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3492 ms
+2025-04-14 11:07:44.192 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 11:07:44.917 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-14 11:07:44.980 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-14 11:07:45.563 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-14 11:07:45.591 [main] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [hibernate.temp.use_jdbc_metadata_defaults], use [hibernate.boot.allow_jdbc_metadata_access] instead
+2025-04-14 11:07:45.628 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-14 11:07:45.666 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-14 11:07:47.538 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-14 11:07:47.544 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 11:07:48.374 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-14 11:07:49.531 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 11:07:50.355 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 11:07:50.421 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-14 11:07:50.509 [main] INFO  com.MESWebServer.MesWebServerApplication - Started MesWebServerApplication in 11.997 seconds (process running for 15.597)
+2025-04-14 11:07:57.237 [http-nio-0.0.0.0-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 11:07:57.330 [http-nio-0.0.0.0-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-14 11:07:57.372 [http-nio-0.0.0.0-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2025-04-14 11:08:00.079 [http-nio-0.0.0.0-8090-exec-1] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-1][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:08:20.195 [http-nio-0.0.0.0-8090-exec-8] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:09:08.013 [http-nio-0.0.0.0-8090-exec-3] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-3][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:09:14.204 [http-nio-0.0.0.0-8090-exec-4] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-4][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:09:27.915 [http-nio-0.0.0.0-8090-exec-9] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:12:14.846 [main] INFO  com.MESWebServer.MesWebServerApplication - Starting MesWebServerApplication using Java 17.0.6 with PID 31052 (D:\2025\Project\Spring\MESWebServer_VSCODE\bin\main started by 10003512 in D:\2025\Project\Spring\MESWebServer_VSCODE)
+2025-04-14 11:12:14.895 [main] INFO  com.MESWebServer.MesWebServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-14 11:12:16.533 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 11:12:16.864 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 262 ms. Found 2 JPA repository interfaces.
+2025-04-14 11:12:18.705 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-14 11:12:18.718 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 11:12:18.721 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-14 11:12:18.722 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-14 11:12:18.832 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-14 11:12:18.833 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3609 ms
+2025-04-14 11:12:20.046 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 11:12:20.243 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-14 11:12:20.321 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-14 11:12:20.885 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-14 11:12:20.904 [main] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [hibernate.temp.use_jdbc_metadata_defaults], use [hibernate.boot.allow_jdbc_metadata_access] instead
+2025-04-14 11:12:20.936 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-14 11:12:20.953 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-14 11:12:22.846 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-14 11:12:22.904 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 11:12:23.694 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-14 11:12:26.655 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 11:12:27.960 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 11:12:28.086 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-14 11:12:28.111 [main] INFO  com.MESWebServer.MesWebServerApplication - Started MesWebServerApplication in 14.512 seconds (process running for 16.996)
+2025-04-14 11:12:32.710 [http-nio-0.0.0.0-8090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 11:12:32.726 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-14 11:12:32.729 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-14 11:12:35.028 [http-nio-0.0.0.0-8090-exec-3] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-3][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:12:35.028 [http-nio-0.0.0.0-8090-exec-2] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-2][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:12:47.798 [http-nio-0.0.0.0-8090-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-14 11:12:47.807 [http-nio-0.0.0.0-8090-exec-7] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-04-14 11:12:48.435 [http-nio-0.0.0.0-8090-exec-7] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2025-04-14 11:12:48.459 [http-nio-0.0.0.0-8090-exec-7] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5a3cc296
+2025-04-14 11:12:48.466 [http-nio-0.0.0.0-8090-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-14 11:16:25.784 [http-nio-0.0.0.0-8090-exec-10] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-10][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:16:41.126 [http-nio-0.0.0.0-8090-exec-9] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:17:54.646 [http-nio-0.0.0.0-8090-exec-9] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:32:53.470 [http-nio-0.0.0.0-8090-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:33:26.586 [http-nio-0.0.0.0-8090-exec-3] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:33:29.200 [http-nio-0.0.0.0-8090-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:33:32.070 [http-nio-0.0.0.0-8090-exec-9] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-9][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:33:53.713 [http-nio-0.0.0.0-8090-exec-3] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:34:16.801 [http-nio-0.0.0.0-8090-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:34:19.875 [http-nio-0.0.0.0-8090-exec-8] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-8][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:34:22.958 [http-nio-0.0.0.0-8090-exec-5] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-5][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:34:30.546 [http-nio-0.0.0.0-8090-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-14 11:35:13.790 [http-nio-0.0.0.0-8090-exec-7] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-7][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:37:31.758 [http-nio-0.0.0.0-8090-exec-4] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-4][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 11:51:27.866 [http-nio-0.0.0.0-8090-exec-8] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-8][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 12:59:10.044 [http-nio-0.0.0.0-8090-exec-10] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-10][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 14:05:14.522 [main] INFO  com.MESWebServer.MesWebServerApplication - Starting MesWebServerApplication using Java 17.0.6 with PID 29380 (D:\2025\Project\Spring\MESWebServer_VSCODE\bin\main started by 10003512 in D:\2025\Project\Spring\MESWebServer_VSCODE)
+2025-04-14 14:05:14.525 [main] INFO  com.MESWebServer.MesWebServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-14 14:05:16.919 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-14 14:05:17.090 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 153 ms. Found 2 JPA repository interfaces.
+2025-04-14 14:05:18.294 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-14 14:05:18.308 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 14:05:18.311 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-14 14:05:18.312 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-14 14:05:18.482 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-14 14:05:18.483 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3490 ms
+2025-04-14 14:05:18.840 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-14 14:05:18.968 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-14 14:05:19.090 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-14 14:05:19.635 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-14 14:05:19.667 [main] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [hibernate.temp.use_jdbc_metadata_defaults], use [hibernate.boot.allow_jdbc_metadata_access] instead
+2025-04-14 14:05:19.719 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-14 14:05:19.759 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 19.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-14 14:05:21.280 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-14 14:05:21.290 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-14 14:05:22.021 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-14 14:05:23.034 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-14 14:05:23.980 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2025-04-14 14:05:24.084 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-14 14:05:24.116 [main] INFO  com.MESWebServer.MesWebServerApplication - Started MesWebServerApplication in 10.559 seconds (process running for 15.578)
+2025-04-14 14:05:32.723 [http-nio-0.0.0.0-8090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-14 14:05:32.735 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-14 14:05:32.737 [http-nio-0.0.0.0-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-14 14:05:35.202 [http-nio-0.0.0.0-8090-exec-2] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-2][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 14:06:01.004 [http-nio-0.0.0.0-8090-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-14 14:06:01.015 [http-nio-0.0.0.0-8090-exec-7] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-04-14 14:06:01.651 [http-nio-0.0.0.0-8090-exec-7] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2025-04-14 14:06:01.677 [http-nio-0.0.0.0-8090-exec-7] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@9b2e213
+2025-04-14 14:06:01.685 [http-nio-0.0.0.0-8090-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-14 14:16:40.585 [http-nio-0.0.0.0-8090-exec-9] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-9][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 14:19:16.223 [http-nio-0.0.0.0-8090-exec-7] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-7][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 14:22:18.603 [http-nio-0.0.0.0-8090-exec-3] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-3][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 14:35:15.423 [http-nio-0.0.0.0-8090-exec-7] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-7][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 14:38:15.130 [http-nio-0.0.0.0-8090-exec-4] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-4][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 14:42:50.204 [http-nio-0.0.0.0-8090-exec-7] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-7][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 14:46:16.728 [http-nio-0.0.0.0-8090-exec-7] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-7][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 14:52:43.156 [http-nio-0.0.0.0-8090-exec-6] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-6][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2025-04-14 15:20:22.886 [http-nio-0.0.0.0-8090-exec-7] WARN  org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor - [THYMELEAF][http-nio-0.0.0.0-8090-exec-7][layout] Deprecated unwrapped fragment expression "fragments/etchepd_chart::etchEpdContent" found in template home, line 136, col 21. Please use the complete syntax of fragment expressions instead ("~{fragments/etchepd_chart::etchEpdContent}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.

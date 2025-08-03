@@ -1,0 +1,57 @@
+server:
+  tomcat:
+    max-threads: 50
+  port: 8090
+  address: 0.0.0.0
+
+spring:
+  profiles:
+    active: real
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 50
+  datasource:
+    #url: jdbc:oracle:thin:@10.150.5.30:6534/F1MESDEV
+    #username: mesmgr
+    #password: mesmgr
+    url: jdbc:oracle:thin:@10.148.1.133:1720/IDB
+    username: idbmgr
+    password: idbmgr
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    #driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      maximum-pool-size: 5
+      minimum-idle: 3
+      idle-timeout: 30000
+      max-lifetime: 600000
+      connection-timeout: 10000
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        hbm2ddl.auto: none
+        show_sql: false
+        #OracleDialect
+        dialect: org.hibernate.dialect.OracleDialect
+        temp.use_jdbc_metadata_defaults: false
+        format_sql: true
+        jdbc.batch_size: 500
+        order_inserts: true
+        order_updates: true
+  sql:
+    init:
+      mode: never
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    mode: HTML
+    encoding: UTF-8
+    suffix: .html
+    cache: false
+
+logging.level:
+  org.hibernate.SQL: off

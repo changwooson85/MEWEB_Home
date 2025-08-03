@@ -1,0 +1,247 @@
+<html layout:decorate="~{layout}">
+  <div th:fragment="etchEpdContent">
+    <div class="container-fluid mt-4">
+      <h3>EPD TIME 조회</h3>
+
+      <!-- 1. 조건 입력 영역 -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <form method="post" id="etchForm">
+            <!-- 1. Layer ~ Category 한 줄 -->
+            <div class="row g-3">
+              <div class="form-group col-md-2">
+                <label>Layer</label>
+                <select
+                  id="layer"
+                  name="layer"
+                  multiple
+                  class="form-control"
+                ></select>
+              </div>
+              <div class="form-group col-md-2">
+                <label>EQ</label>
+                <select
+                  id="list_res_id"
+                  name="list_res_id"
+                  multiple
+                  class="form-control"
+                ></select>
+              </div>
+              <div class="form-group col-md-2">
+                <label>CH</label>
+                <select
+                  id="chamber"
+                  name="chamber"
+                  multiple
+                  class="form-control"
+                ></select>
+              </div>
+              <div class="form-group col-md-2">
+                <label>RECIPE</label>
+                <select
+                  id="recipe"
+                  name="recipe"
+                  multiple
+                  class="form-control"
+                ></select>
+              </div>
+              <div class="form-group col-md-2">
+                <label>EPD_STEP</label>
+                <select
+                  id="epdStep"
+                  name="epdStep"
+                  multiple
+                  class="form-control"
+                ></select>
+              </div>
+            </div>
+
+            <!-- 2. Period 영역 -->
+            <div class="form-group">
+              <label>Period (구간 추가 가능)</label>
+              <div id="periodContainer">
+                <div class="form-row period-row d-flex align-items-center mb-1">
+                  <input
+                    type="date"
+                    name="startDate[]"
+                    class="form-control form-control-sm w-auto me-1"
+                    placeholder="시작일"
+                  />
+                  ~
+                  <input
+                    type="date"
+                    name="endDate[]"
+                    class="form-control form-control-sm w-auto ms-1 me-2"
+                    placeholder="종료일"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-danger btn-sm"
+                    onclick="removePeriod(this)"
+                  >
+                    – 제거
+                  </button>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="btn btn-secondary btn-sm mt-1"
+                onclick="addPeriod()"
+              >
+                + 구간 추가
+              </button>
+            </div>
+
+            <!-- 3. Lot ~ Device 한 줄 -->
+            <div class="row g-3">
+              <div class="form-group col-md-2">
+                <div class="card mb-4 mt-4">
+                  <div class="card-header">Lot 검색</div>
+                  <div class="card-body">
+                    <label>Lot</label><input name="lot" class="form-control" />
+                    <label>Slot</label
+                    ><input name="slot" class="form-control" />
+                    <button
+                      type="button"
+                      id="searchLotBtn"
+                      class="btn btn-secondary btn-sm mt-1"
+                    >
+                      검색
+                    </button>
+                    <button
+                      type="button"
+                      id="resetLotBtn"
+                      class="btn btn-secondary btn-sm mt-1"
+                    >
+                      초기화
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group col-md-2">
+                <div class="card mb-4 mt-4">
+                  <div class="card-header">조건</div>
+                  <div class="card-body">
+                    <label>Route</label
+                    ><input name="route" class="form-control" />
+                    <label>Process</label
+                    ><input
+                      name="process"
+                      class="form-control"
+                      readonly="true"
+                    />
+                    <label>Device</label
+                    ><input name="device" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group col-md-2">
+                <div class="card mb-4 mt-4">
+                  <div class="card-header">PATTERN DENSITY</div>
+                  <div class="card-body">
+                    <label>USL</label
+                    ><input name="usl" type="number" class="form-control" />
+                    <label>LSL</label
+                    ><input name="lsl" type="number" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group col-md-2">
+                <div class="card mb-4 mt-4">
+                  <div class="card-header">Changing Point</div>
+                  <div class="card-body">
+                    <label>Event</label>
+                    <select
+                      id="event"
+                      name="event"
+                      multiple
+                      class="form-control"
+                    ></select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 버튼 -->
+            <div class="row g-3 col-md-2 mt-4">
+              <button type="submit" id="searchBtn" class="btn btn-primary">
+                조회
+              </button>
+              <div id="loading-overlay">
+                <div class="spinner"></div>
+                <div>조회 중입니다...</div>
+              </div>
+              <button
+                type="button"
+                id="downloadPdf"
+                class="btn btn-success mt-3"
+              >
+                PDF 저장
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- 2. Chart 영역 -->
+      <div class="card mb-4">
+        <div class="card-header">EPD Trend 차트</div>
+        <div class="card-body">
+          <div class="chart-area">
+            <div id="etchChart" th:data-chartdata="${chartData}"></div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center mb-1">
+        <div class="card mb-4">
+          <div class="card-header">정규분포</div>
+          <div class="card-body">
+            <div class="chart-area">
+              <canvas
+                id="etchNormalCanvas"
+                th:data-chartdata="${chartData}"
+              ></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-header">산포도</div>
+          <div class="card-body">
+            <div class="chart-area">
+              <canvas
+                id="etchScatterCanvas"
+                th:data-chartdata="${chartData}"
+              ></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. 요약 테이블 -->
+      <div class="card">
+        <div class="card-header">장비별 EPD TIME 요약</div>
+        <div class="card-body">
+          <table class="table table-sm table-bordered summary-table">
+            <thead class="thead-dark">
+              <tr id="summary-head">
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody id="summary-body">
+              <tr id="avg-row">
+                <td>AVG</td>
+              </tr>
+              <tr id="min-row">
+                <td>MIN</td>
+              </tr>
+              <tr id="max-row">
+                <td>MAX</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>

@@ -1,0 +1,751 @@
+2025-05-02 08:31:47.578 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.704 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.707 [http-nio-0.0.0.0-8090-exec-225] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.713 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.720 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.721 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.727 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.734 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.735 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.744 [http-nio-0.0.0.0-8090-exec-225] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.750 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.774 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.781 [http-nio-0.0.0.0-8090-exec-204] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.793 [http-nio-0.0.0.0-8090-exec-229] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.798 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.803 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.805 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.811 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.814 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.817 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.820 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.822 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.826 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.843 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.846 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.848 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.861 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.865 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.865 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.867 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.864 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.868 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.875 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.879 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.887 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.888 [http-nio-0.0.0.0-8090-exec-225] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.899 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.902 [http-nio-0.0.0.0-8090-exec-204] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.910 [http-nio-0.0.0.0-8090-exec-204] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.910 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.911 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.916 [http-nio-0.0.0.0-8090-exec-229] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.919 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.944 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.958 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.968 [http-nio-0.0.0.0-8090-exec-204] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.973 [http-nio-0.0.0.0-8090-exec-204] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.979 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.984 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.989 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.994 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.997 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:50.999 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.003 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.004 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.022 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.024 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.031 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.031 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.040 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.045 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.051 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.055 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.031 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.066 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.066 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.083 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.094 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.098 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.151 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.151 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.153 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.155 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.157 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.161 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.164 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.180 [http-nio-0.0.0.0-8090-exec-225] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.184 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.186 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.186 [http-nio-0.0.0.0-8090-exec-225] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.188 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.193 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.193 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.198 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.200 [http-nio-0.0.0.0-8090-exec-230] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.201 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.202 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.212 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.220 [http-nio-0.0.0.0-8090-exec-234] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.221 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.220 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.233 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.233 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.239 [http-nio-0.0.0.0-8090-exec-229] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.256 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.260 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.262 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.266 [http-nio-0.0.0.0-8090-exec-227] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.269 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.277 [http-nio-0.0.0.0-8090-exec-85] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.277 [http-nio-0.0.0.0-8090-exec-225] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.278 [http-nio-0.0.0.0-8090-exec-204] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.284 [http-nio-0.0.0.0-8090-exec-230] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.289 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.294 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.300 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.303 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.308 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.309 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.312 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.319 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.325 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.330 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.337 [http-nio-0.0.0.0-8090-exec-234] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.384 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.385 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.389 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.393 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.394 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.396 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.399 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.403 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.411 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.411 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.417 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.422 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.434 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.442 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.460 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.463 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.469 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.470 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.476 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.477 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.486 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.487 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.492 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.498 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.503 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.512 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.522 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.536 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.538 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.542 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.546 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.556 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.562 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.564 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.571 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.572 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.580 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.580 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.585 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.593 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.595 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.599 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.602 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.606 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.610 [http-nio-0.0.0.0-8090-exec-208] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.610 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.611 [http-nio-0.0.0.0-8090-exec-233] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.602 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.616 [http-nio-0.0.0.0-8090-exec-235] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.622 [http-nio-0.0.0.0-8090-exec-236] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.627 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.630 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.634 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.641 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.648 [http-nio-0.0.0.0-8090-exec-228] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.657 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.670 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.675 [http-nio-0.0.0.0-8090-exec-229] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.676 [http-nio-0.0.0.0-8090-exec-226] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.679 [http-nio-0.0.0.0-8090-exec-229] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.681 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.686 [http-nio-0.0.0.0-8090-exec-215] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.696 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.704 [http-nio-0.0.0.0-8090-exec-231] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.705 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.713 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.714 [http-nio-0.0.0.0-8090-exec-225] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.720 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.724 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.729 [http-nio-0.0.0.0-8090-exec-232] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.734 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.738 [http-nio-0.0.0.0-8090-exec-202] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 08:33:51.782 [http-nio-0.0.0.0-8090-exec-237] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-05-02 09:40:00.009 [scheduler-thread-1] ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.concurrent.atomic.AtomicBoolean.get()" because "this.m_busy" is null
+	at com.MESWebServer.h101.Core.MESWEBCaster.isBusy(MESWEBCaster.java:50)
+	at com.MESWebServer.h101.Core.H101Channel.IsBusy(H101Channel.java:46)
+	at com.MESWebServer.h101.Core.ChannelPoolManager.getIdleChannel(ChannelPoolManager.java:31)
+	at com.MESWebServer.FunctionList.FTP.FtpServerProvider.getJobFileFTP(FtpServerProvider.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:723)
+	at com.MESWebServer.FunctionList.FTP.FtpServerProvider$$SpringCGLIB$$0.getJobFileFTP(<generated>)
+	at com.MESWebServer.FunctionList.FTP.FtpFileService.checkAllftpServers(FtpFileService.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:723)
+	at com.MESWebServer.FunctionList.FTP.FtpFileService$$SpringCGLIB$$0.checkAllftpServers(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-02 11:13:19.651 [async-Thread6] ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler - Unexpected exception occurred invoking async method: public void com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(com.MESWebServer.FunctionList.FTP.FtpServer,java.util.List)
+java.lang.RuntimeException: java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:58)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.actionFromType(FtpJobFileProcess.java:30)
+	at com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(FtpServerProvider.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:51)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:38)
+	... 14 common frames omitted
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:253)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:332)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:287)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:330)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:190)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:177)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162)
+	at java.base/java.io.BufferedReader.read(BufferedReader.java:183)
+	at org.apache.commons.net.io.CRLFLineReader.readLine(CRLFLineReader.java:56)
+	at org.apache.commons.net.ftp.FTP.getReply(FTP.java:590)
+	at org.apache.commons.net.ftp.FTP.getReply(FTP.java:581)
+	at org.apache.commons.net.ftp.FTPClient.completePendingCommand(FTPClient.java:1187)
+	at org.apache.commons.net.ftp.FTPClient.initiateListParsing(FTPClient.java:1995)
+	at org.apache.commons.net.ftp.FTPClient.initiateListParsing(FTPClient.java:2082)
+	at org.apache.commons.net.ftp.FTPClient.listFiles(FTPClient.java:2282)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:42)
+	... 17 common frames omitted
+2025-05-02 11:13:20.026 [pool-2-thread-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - 접속 종료: next
+2025-05-02 11:13:20.034 [pool-2-thread-1] ERROR org.springframework.transaction.interceptor.TransactionInterceptor - Application exception overridden by rollback exception
+org.hibernate.sql.exec.ExecutionException: A problem occurred in the SQL executor : Error advancing (next) ResultSet position [접속 종료: next]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.makeExecutionException(JdbcValuesResultSetImpl.java:325)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:273)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:150)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:99)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.readUniqueAssert(ListResultsConsumer.java:261)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:198)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:35)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:224)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:74)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3895)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3884)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:206)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:289)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:241)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:110)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:69)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1229)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1217)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:161)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:150)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:113)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:150)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1030)
+	at org.hibernate.event.internal.DefaultMergeEventListener.lambda$entityIsDetached$0(DefaultMergeEventListener.java:413)
+	at org.hibernate.engine.spi.LoadQueryInfluencers.fromInternalFetchProfile(LoadQueryInfluencers.java:109)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:411)
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:214)
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:152)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:136)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:89)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:854)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:840)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.merge(Unknown Source)
+	at com.MESWebServer.service.CrasJobLstService.refreshData(CrasJobLstService.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.MESWebServer.service.CrasJobLstService$$SpringCGLIB$$0.refreshData(<generated>)
+	at com.MESWebServer.FunctionList.FTP.Service.FTPMESWorkerService.lambda$run$0(FTPMESWorkerService.java:52)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Error advancing (next) ResultSet position [접속 종료: next] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.makeExecutionException(JdbcValuesResultSetImpl.java:314)
+	... 68 common frames omitted
+Caused by: java.sql.SQLRecoverableException: 접속 종료: next
+	at oracle.jdbc.driver.OracleResultSetImpl.next(OracleResultSetImpl.java:247)
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:270)
+	... 67 common frames omitted
+2025-05-02 13:07:58.372 [async-Thread6] ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler - Unexpected exception occurred invoking async method: public void com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(com.MESWebServer.FunctionList.FTP.FtpServer,java.util.List)
+java.lang.RuntimeException: java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:58)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.actionFromType(FtpJobFileProcess.java:30)
+	at com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(FtpServerProvider.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:51)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:38)
+	... 14 common frames omitted
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:253)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:332)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:287)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:330)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:190)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:177)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162)
+	at java.base/java.io.BufferedReader.read(BufferedReader.java:183)
+	at org.apache.commons.net.io.CRLFLineReader.readLine(CRLFLineReader.java:56)
+	at org.apache.commons.net.ftp.FTP.getReply(FTP.java:590)
+	at org.apache.commons.net.ftp.FTP.getReply(FTP.java:581)
+	at org.apache.commons.net.ftp.FTPClient.completePendingCommand(FTPClient.java:1187)
+	at org.apache.commons.net.ftp.FTPClient.initiateListParsing(FTPClient.java:1995)
+	at org.apache.commons.net.ftp.FTPClient.initiateListParsing(FTPClient.java:2082)
+	at org.apache.commons.net.ftp.FTPClient.listFiles(FTPClient.java:2282)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:42)
+	... 17 common frames omitted
+2025-05-02 13:44:07.097 [Thread-6] ERROR com.MESWebServer.FunctionList.FTP.Service.FTPMESWorkerService - [ERROR] MESWEB_Update_Ftp_Job_File
+: null/null/null
+2025-05-02 13:44:27.083 [async-Thread6] ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler - Unexpected exception occurred invoking async method: public void com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(com.MESWebServer.FunctionList.FTP.FtpServer,java.util.List)
+java.lang.RuntimeException: java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:58)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.actionFromType(FtpJobFileProcess.java:30)
+	at com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(FtpServerProvider.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:51)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:38)
+	... 15 common frames omitted
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:253)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:332)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:287)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:330)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:190)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:177)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162)
+	at java.base/java.io.BufferedReader.read(BufferedReader.java:183)
+	at org.apache.commons.net.io.CRLFLineReader.readLine(CRLFLineReader.java:56)
+	at org.apache.commons.net.ftp.FTP.getReply(FTP.java:590)
+	at org.apache.commons.net.ftp.FTP.getReply(FTP.java:581)
+	at org.apache.commons.net.ftp.FTPClient.completePendingCommand(FTPClient.java:1187)
+	at org.apache.commons.net.ftp.FTPClient.initiateListParsing(FTPClient.java:1995)
+	at org.apache.commons.net.ftp.FTPClient.initiateListParsing(FTPClient.java:2082)
+	at org.apache.commons.net.ftp.FTPClient.listFiles(FTPClient.java:2282)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:42)
+	... 18 common frames omitted
+2025-05-02 13:48:27.707 [Thread-6] ERROR com.MESWebServer.FunctionList.FTP.Service.FTPMESWorkerService - [ERROR] MESWEB_Update_Ftp_Job_File
+: null/null/null
+2025-05-02 13:48:44.573 [async-Thread6] ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler - Unexpected exception occurred invoking async method: public void com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(com.MESWebServer.FunctionList.FTP.FtpServer,java.util.List)
+java.lang.RuntimeException: java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:58)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.actionFromType(FtpJobFileProcess.java:30)
+	at com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(FtpServerProvider.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.RuntimeException: java.net.SocketException: Socket closed
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:51)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:38)
+	... 15 common frames omitted
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:253)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:332)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:287)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:330)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:190)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:177)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162)
+	at java.base/java.io.BufferedReader.read(BufferedReader.java:183)
+	at org.apache.commons.net.io.CRLFLineReader.readLine(CRLFLineReader.java:56)
+	at org.apache.commons.net.ftp.FTP.getReply(FTP.java:590)
+	at org.apache.commons.net.ftp.FTP.getReply(FTP.java:581)
+	at org.apache.commons.net.ftp.FTPClient.completePendingCommand(FTPClient.java:1187)
+	at org.apache.commons.net.ftp.FTPClient.initiateListParsing(FTPClient.java:1995)
+	at org.apache.commons.net.ftp.FTPClient.initiateListParsing(FTPClient.java:2082)
+	at org.apache.commons.net.ftp.FTPClient.listFiles(FTPClient.java:2282)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:42)
+	... 18 common frames omitted
+2025-05-02 13:56:11.410 [Thread-6] ERROR com.MESWebServer.FunctionList.FTP.Service.FTPMESWorkerService - [ERROR] MESWEB_Update_Ftp_Job_File
+: null/null/null
+2025-05-02 13:57:08.588 [async-Thread6] ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler - Unexpected exception occurred invoking async method: public void com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(com.MESWebServer.FunctionList.FTP.FtpServer,java.util.List)
+java.lang.RuntimeException: java.lang.RuntimeException: java.io.IOException: Connection is not open
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:58)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.actionFromType(FtpJobFileProcess.java:30)
+	at com.MESWebServer.FunctionList.FTP.FtpServerProvider.checkFileExists(FtpServerProvider.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.RuntimeException: java.io.IOException: Connection is not open
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:51)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.getJobFile(FtpJobFileProcess.java:38)
+	... 15 common frames omitted
+Caused by: java.io.IOException: Connection is not open
+	at org.apache.commons.net.ftp.FTP.sendCommand(FTP.java:1242)
+	at org.apache.commons.net.ftp.FTP.sendCommand(FTP.java:1177)
+	at org.apache.commons.net.ftp.FTP.sendCommand(FTP.java:1160)
+	at org.apache.commons.net.ftp.FTP.syst(FTP.java:1433)
+	at org.apache.commons.net.ftp.FTPClient.getSystemType(FTPClient.java:1824)
+	at org.apache.commons.net.ftp.FTPClient.createParser(FTPClient.java:1226)
+	at org.apache.commons.net.ftp.FTPClient.initiateListParsing(FTPClient.java:2081)
+	at org.apache.commons.net.ftp.FTPClient.listFiles(FTPClient.java:2282)
+	at com.MESWebServer.FunctionList.FTP.FtpJobFileProcess.lambda$getJobFile$1(FtpJobFileProcess.java:42)
+	... 18 common frames omitted
+2025-05-02 14:21:49.787 [Thread-6] ERROR org.springframework.transaction.interceptor.TransactionInterceptor - Application exception overridden by rollback exception
+java.lang.IllegalStateException: Session/EntityManager is closed
+	at org.hibernate.internal.AbstractSharedSessionContract.checkOpen(AbstractSharedSessionContract.java:518)
+	at org.hibernate.engine.spi.SharedSessionContractImplementor.checkOpen(SharedSessionContractImplementor.java:186)
+	at org.hibernate.internal.AbstractSharedSessionContract.checkOpenOrWaitingForAutoClose(AbstractSharedSessionContract.java:536)
+	at org.hibernate.internal.SessionImpl.checkOpenOrWaitingForAutoClose(SessionImpl.java:622)
+	at org.hibernate.internal.SessionImpl.getEntityPersister(SessionImpl.java:1497)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:296)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:432)
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:214)
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:152)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:136)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:89)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:854)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:840)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.merge(Unknown Source)
+	at com.MESWebServer.service.CrasJobLstService.refreshData(CrasJobLstService.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.MESWebServer.service.CrasJobLstService$$SpringCGLIB$$0.refreshData(<generated>)
+	at com.MESWebServer.FunctionList.FTP.Service.FTPMESWorkerService.run(FTPMESWorkerService.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:840)

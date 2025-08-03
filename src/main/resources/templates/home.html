@@ -1,0 +1,146 @@
+<html layout:decorate="~{layout}">
+  <div layout:fragment="content" class="container-fluid mt-1">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          id="tab-home"
+          data-bs-toggle="tab"
+          href="#home"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tab-photo" data-bs-toggle="tab" href="#photo"
+          >Photo</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tab-etch" data-bs-toggle="tab" href="#etch"
+          >Etch</a
+        >
+      </li>
+    </ul>
+
+    <!-- 탭 내용 -->
+    <div class="tab-content container-fluid mt-4">
+      <!-- Home 탭 -->
+      <div class="tab-pane fade show active" id="home">
+        <button
+          class="btn btn-outline-primary me-2 tab-switch-btn"
+          data-target-tab="tab-photo"
+        >
+          <img
+            src="/image/photo.jpg"
+            alt="Photo"
+            style="width: 40px; height: 80px; margin-right: 5px"
+          />
+          Photo 탭으로 이동
+        </button>
+        <button
+          class="btn btn-outline-secondary tab-switch-btn"
+          data-target-tab="tab-etch"
+        >
+          <img
+            src="/image/etch.jpg"
+            alt="Etch"
+            style="width: 40px; height: 80px; margin-right: 5px"
+          />
+          Etch 탭으로 이동
+        </button>
+      </div>
+
+      <!-- Photo 탭 -->
+      <div class="tab-pane fade" id="photo">
+        <h2>
+          <img
+            src="/image/photo.jpg"
+            alt="Photo Process"
+            style="width: 40px; height: 40px; margin-right: 5px"
+          />
+          Photo 공정
+        </h2>
+        <div class="row">
+          <!-- 왼쪽 리스트 -->
+          <div class="col-md-2">
+            <div class="list-group">
+              <button
+                class="list-group-item list-group-item-action"
+                id="loadJobResList"
+              >
+                📋 Job List
+              </button>
+            </div>
+          </div>
+          <!-- 오른쪽 세부 정보 -->
+          <div class="col-md-10">
+            <!-- 장비 리스트 영역 (처음에는 숨김 처리) -->
+            <div id="equipmentSection" class="mb-3" style="display: none">
+              <label for="equipmentSelect" class="form-label">장비 선택</label>
+              <select id="equipmentSelect" class="form-select">
+                <option value="">-- 장비 선택 --</option>
+                <!-- 장비 목록은 JS 또는 AJAX로 로드 -->
+              </select>
+              <button id="viewEquipmentBtn" class="btn btn-primary mt-2">
+                View
+              </button>
+            </div>
+            <form id="deviceSearchForm" class="mb-3" style="display: none">
+              <input type="hidden" name="res_id" id="resIdInput" />
+              <div class="row">
+                <div class="col-md-3">
+                  <input
+                    type="text"
+                    name="device"
+                    id="deviceInput"
+                    class="form-control"
+                    placeholder="Search DEVICE"
+                  />
+                </div>
+                <div class="col-md-2">
+                  <button type="submit" class="btn btn-primary">검색</button>
+                </div>
+              </div>
+            </form>
+            <!-- Job List 데이터 출력 영역 -->
+            <div class="card">
+              <div class="card-header bg-dark text-white">📋 상세 정보</div>
+              <div class="card-body" id="jobListContainer">
+                <p>리스트에서 항목을 선택하세요.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Etch 탭 -->
+      <div class="tab-pane fade" id="etch">
+        <h2>Etch 공정</h2>
+        <div class="container-fluid px-0">
+          <div class="row g-0">
+            <!-- 왼쪽 리스트 -->
+            <div class="col-md-2">
+              <div class="list-group">
+                <button
+                  class="list-group-item list-group-item-action"
+                  id="etchEpdChart"
+                >
+                  📋 EPD Chart
+                </button>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div id="epdChartSection" class="mb-3" style="display: none">
+                <div class="w-100">
+                  <div
+                    th:insert="fragments/etchepd_chart::etchEpdContent"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>

@@ -1,0 +1,32 @@
+2025-04-16 19:04:14.430 [http-nio-0.0.0.0-8090-exec-9] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-04-16 19:04:59.491 [http-nio-0.0.0.0-8090-exec-2] ERROR com.MESWebServer.controller.EtchEPDController - [ERROR] listRecipe
+: null/null/null
+2025-04-21 13:51:14.951 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2025-04-21 14:49:27.305 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
