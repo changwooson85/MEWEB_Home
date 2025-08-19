@@ -15,10 +15,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HomeController {
 
     @GetMapping("/")
-    public String Home(){
+    public String showHomePage(@RequestParam(required = false) String pgedit,
+        @RequestParam(required = false) String pgpvvid) {
+        // Pinegrow가 보내는 파라미터를 받아내지만, 실제 로직에는 사용하지 않음
         return "home";
     }
-
     @GetMapping("/line")
     public String getLineSheduler(@RequestParam(value="res_id", required = true) String res_id, Model model){
 
